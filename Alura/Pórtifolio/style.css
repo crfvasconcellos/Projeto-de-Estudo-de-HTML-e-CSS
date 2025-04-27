@@ -1,4 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
     background-color: black;
-    color: white;
+    color: #f6f6f6;
+}
+
+.destaque_do_titulo{
+    color: #22D4FD;
 }
