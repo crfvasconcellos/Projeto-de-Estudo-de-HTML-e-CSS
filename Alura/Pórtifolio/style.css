@@ -39,6 +39,12 @@ main{
 
 }
 
+.img{
+    color: #22D4FD;
+    border-style: solid ;
+    border-radius: 50px;
+    
+}
 .elementos p{
     text-align: justify;
     max-width: 300px;
@@ -64,6 +70,7 @@ main{
 
 
 .links a{
+    border-radius: 10px;
     display: flex;
     gap: 20px;
     margin-top: 20px;
