@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: 100%; /* Garantir que o HTML e body ocupem 100% da altura da página */
+    height: 100%;
 }
 
 body {
@@ -17,21 +17,21 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0; /* Remover o padding do body */
+    padding: 0; 
 }
 
 header {
-    background-color: rgba(19, 19, 19, 0.9); /* Cor de fundo com transparência */
+    background-color: rgba(19, 19, 19, 0.9); 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Garantir que o header ocupe toda a largura */
-    height: 100px; /* Definir uma altura para o header */
-    margin: 0; /* Garantir que não tenha margem */
-    padding: 0; /* Remover padding */
+    width: 100%; 
+    height: 100px; 
+    margin: 0; 
+    padding: 0; 
     position: relative;
-    top: 0; /* Garantir que encoste no topo */
+    top: 0; 
 }
 
 main {
@@ -42,7 +42,7 @@ main {
     width: 90%;
     max-width: 700px;
     background-color: rgba(19, 19, 19, 0.9);
-    margin-top: 20px; /* Para dar um pequeno espaçamento entre o header e o main */
+    margin-top: 20px;
 }
 
 article {
