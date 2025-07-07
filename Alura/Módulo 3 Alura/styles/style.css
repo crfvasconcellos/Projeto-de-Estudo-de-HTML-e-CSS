@@ -5,8 +5,35 @@
     padding: 0;
 }
 
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 60px;
+
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: crimson;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cabecalho__menu__link:hover{
+    text-decoration: underline;
+    text-decoration-color: white ;
+    text-underline-offset: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: crimson;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -14,6 +41,7 @@ body{
     background-repeat: no-repeat;
     background-size: 3000px 3000px; 
     background-position: center bottom;
+    
 }
 
 .titulo-destaque{
@@ -21,7 +49,7 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,8 +117,9 @@ body{
 {
     color: rgb(0, 0, 0);
     background-color: crimson;
-    padding:  24px;
+    padding:  24px  ;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
+    font-weight: 400;
 }
