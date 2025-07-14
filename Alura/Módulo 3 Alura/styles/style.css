@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+
+:root {
+    --cor-principal: #dc143c;
+    --cor-secundaria: #ffff;
+    --cor-terciaria: #000000;
+}
+
 .cabecalho{
     padding: 2% 0 0 15%;
 }
@@ -18,26 +25,26 @@
 .cabecalho__menu__link{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    color: crimson;
+    color: var(--cor-principal);
     font-size: 24px;
     font-weight: 600;
 }
 
 .cabecalho__menu__link:hover{
     text-decoration: underline;
-    text-decoration-color: white ;
+    text-decoration-color:  var(--cor-secundaria);
     text-underline-offset: 10px;
     font-family: 'Montserrat', sans-serif;
-    color: crimson;
+    color: var(--cor-principal);
     font-size: 24px;
     font-weight: 600;
 }
 
 body{
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
-    background-image: radial-gradient(circle at bottom center, crimson 0%, transparent 27%);
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    background-image: radial-gradient(circle at bottom center, var(--cor-principal) 0%, transparent 27%);
     background-repeat: no-repeat;
     background-size: 3000px 3000px; 
     background-position: center bottom;
@@ -45,7 +52,7 @@ body{
 }
 
 .titulo-destaque{
-    color: crimson;
+    color: var(--cor-principal);
 }
 
 .apresentacao{
@@ -90,7 +97,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 10px;
-    border: 2px solid crimson;
+    border: 2px solid var(--cor-principal);
     background-color: transparent;
     width: 378px;
     text-align: center;
@@ -99,12 +106,12 @@ body{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__links__link:hover{
-    border: 2px solid #ffffff;
+    border: 2px solid var(--cor-secundaria);
     width: 400px;
 }
 
@@ -115,8 +122,8 @@ body{
 
 .rodapé
 {
-    color: rgb(0, 0, 0);
-    background-color: crimson;
+    color: var(--cor-terciaria);
+    background-color: var(--cor-principal);
     padding:  24px  ;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
